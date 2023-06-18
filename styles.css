@@ -39,36 +39,48 @@
     margin-bottom: 3.5rem;
 }
 
-
+.search {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+}
 
 
 .header {
-    background-color: lightblue;
+    background-color: white;
     display: grid;
     grid-template-columns: 7fr 3fr;
     grid-template-rows: 1fr 1fr;
     align-items: center;
     
-    padding: 0 30px;
+    padding: 15px 30px;
 }
 
 .search-bar {
     height: 1.3rem;
-    border-radius: 5px;
-    border: solid 1px grey;
-
+    border-radius: 10px;
+    border: none;
+    background-color: lightgray;
 }
 
 .notif-name {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-items: center;
+    grid-template-columns: auto auto auto;
+    justify-items: end;
+    justify-content: end;
+    align-items: center;
+    gap: 2rem;
 }
 
 .icon-hello {
     display: grid;
-    grid-template-columns: 1fr 5fr;
+    grid-template-columns: auto 1fr;
     justify-content: start;
+    align-items: center;
+}
+
+.icon-hello > .hello-name {
+    padding-left: 1rem;
 }
 
 .hello-name > p:first-child {
@@ -100,4 +112,9 @@
     height: auto;
     border: none;
     border-radius: 50px;
+}
+
+.material-icons {
+    width: 50px;
+    height: auto;
 }
