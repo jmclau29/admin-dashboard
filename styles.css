@@ -52,7 +52,6 @@
     grid-template-columns: 7fr 3fr;
     grid-template-rows: 1fr 1fr;
     align-items: center;
-    
     padding: 15px 30px;
 }
 
@@ -98,9 +97,10 @@
 }
 
 .header button {
-    padding: 5px;
+    padding: 10px;
     border-radius: 50px;
     border: none;
+    
 }
 
 .main {
@@ -115,6 +115,38 @@
 }
 
 .material-icons {
-    width: 50px;
+    width: 35px;
     height: auto;
+}
+
+.search > img {
+    padding-right: 20px;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    
+}
+
+.main > .projects {
+    grid-row: 1 / 3;
+}
+
+.main > .project-cards {
+    grid-row: 1 / 3;
+    grid-column: 1 / 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding-left: 15px;
+}
+
+.main > .announcements {
+    grid-column: 2 / 3;
+}
+
+.main > .trending {
+    grid-column: 2 / 3;
 }
