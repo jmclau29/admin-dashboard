@@ -54,8 +54,8 @@
     padding: 15px 30px;
 }
 
-.header > div {
-    height:fit-content;
+.header>div {
+    height: fit-content;
 }
 
 .search-bar {
@@ -106,10 +106,6 @@
 
 }
 
-.main {
-    background-color: lightgray;
-}
-
 .icon {
     width: 75px;
     height: auto;
@@ -127,10 +123,11 @@
 }
 
 .main {
+    background-color: lightgray;
     display: grid;
     grid-template-columns: 4fr 1fr;
     grid-template-rows: 1fr;
-    height: fit-content;
+
 }
 
 .main>.projects {
@@ -204,4 +201,47 @@
 .announce-item>p:last-child {
     font-size: 0.8rem;
     color: grey;
+}
+
+.trending > p {
+    padding: 1rem;
+    padding-bottom: 0;
+    font-size: 1.35rem;
+}
+
+.trending-box {
+    background-color: white;
+    border-radius: 10px;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.trending-box>div {
+    padding: 1rem;
+}
+
+.trending-item {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    align-items: center;
+}
+
+.trending-icon {
+    width: 60px;
+    height: auto;
+    border: none;
+    border-radius: 50px;
+}
+
+.trending-user {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+}
+
+.trending-user > p:last-child {
+    font-size: 0.8rem;
+    color: grey;
+    font-style: italic;
 }
