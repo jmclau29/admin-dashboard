@@ -205,3 +205,18 @@
     font-size: 0.8rem;
     color: grey;
 }
+
+.trend-item {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+
+.trend-icon {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    width: 45px;
+    height: auto;
+    border: none;
+    border-radius: 50px;
+}
