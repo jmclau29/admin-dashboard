@@ -24,12 +24,12 @@
 }
 
 .sidebar>p {
-    font-size: 32px;
+    font-size: 2rem;
     margin-bottom: 3rem;
 }
 
 .sidebar>ul>li {
-    font-size: 24px;
+    font-size: 1.5rem;
     list-style: none;
     margin-bottom: 1rem;
 }
