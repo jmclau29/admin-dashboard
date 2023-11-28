@@ -110,14 +110,12 @@
 
 .icon {
     width: 75px;
-    height: auto;
     border: none;
     border-radius: 50px;
 }
 
 .material-icons {
     width: 2rem;
-    height: auto;
 }
 
 .search>img {
@@ -256,7 +254,7 @@
 
 .trending-icon {
     width: 60px;
-    height: auto;
+    
     border: none;
     border-radius: 50px;
 }
