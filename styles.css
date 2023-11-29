@@ -54,9 +54,6 @@
     padding: 15px 30px;
 }
 
-.header>div {
-    height: fit-content;
-}
 
 .search-bar {
     height: 2rem;
@@ -192,7 +189,7 @@
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr;
-    height: fit-content;
+    
 }
 
 
